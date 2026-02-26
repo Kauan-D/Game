@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://media1.tenor.com/m/7AUeNckxG-kAAAAd/shrekdam.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin: 20px auto
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px dashed black;
+    border-radius: 80px;
+    box-shadow: 0 10px 16px darkgray;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    opacity: 0.5
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid greenyellow;
+    border-radius: 40px;
+    box-shadow: 0 5px 8px greenyellow;
+    background-color: white;
+    padding: 20px;
+    width: 120px;
+    margin: 60px auto 0 auto; 
+    opacity: 0.5
+}
+
+input{
+    border-radius: 100px;
+    border: 2px  redvelvet;
+    box-shadow: 0 20px 20px rgb(red, green, blue)
+    fout-size 20px;
+}
+
+button{
+    background-color: orage;
+    border: 2px dotted black;
+    border-radius: 60px;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: grabbing;
+}
