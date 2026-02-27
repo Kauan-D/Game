@@ -1,7 +1,26 @@
 let numSec = Math.floor(Math.random() * 10) + 1;
 console.log(numSec);
 
+let acerto = document.getElementById("acertou");
+let erro = document.getElementById("erro");
+let alarm = document.getElementById("alarm")
+
 function start() {
+ 
+    document.getElementById("batata").innerText = "Aguardando resultado...";
+    document.getElementById("mine").src = "https://i.gifer.com/ZKZg.gif";
+    alarm.currentTime = 0;
+    alarm.play();
+
+    setTimeout(verificarResultado, 20000);
+    
+}
+
+function reset() {
+    window.location.reload();
+}
+
+function verificarResultado() {
 
 let palpite = parseInt(document.getElementById("palpite").value);
 
